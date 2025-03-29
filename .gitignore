@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+archive/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+*.pem
+.vercel
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+coverage/
+
+# Supabase
+**/supabase/.branches/
+**/supabase/.temp/
+
+# Solana
+wallet.json
+keypair.json
+id.json

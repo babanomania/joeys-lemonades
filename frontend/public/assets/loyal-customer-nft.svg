@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFFFF"/>
+  
+  <!-- Beer Mug -->
+  <g transform="translate(400, 300) scale(1.5)">
+    <path d="M-50 -100 h100 v150 h-100z" stroke="#000" stroke-width="4" fill="#6C63FF"/>
+    <path d="M-50 -100 h100 v30 h-100z" fill="#424242" opacity="0.2"/>
+    <path d="M-50 50 h100 v20 h-100z" fill="#424242"/>
+    <path d="M50 -100 v170" stroke="#000" stroke-width="4"/>
+    <path d="M-50 -100 v170" stroke="#000" stroke-width="4"/>
+    <!-- Handle -->
+    <path d="M50 -50 h30 a20 20 0 0 1 0 40 h-30" stroke="#000" stroke-width="4" fill="none"/>
+    <!-- Foam -->
+    <path d="M-48 -100 q25 -20 48 0 t48 0" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Beer Bottle -->
+  <g transform="translate(200, 300) rotate(-45)">
+    <path d="M-20 -100 h40 v200 h-40z" stroke="#000" stroke-width="4" fill="#6C63FF"/>
+    <path d="M-20 -30 h40 v20 h-40z" fill="#424242"/>
+    <path d="M-15 -100 h30 v30 h-30z" stroke="#000" stroke-width="4" fill="#6C63FF"/>
+  </g>
+
+  <!-- Decorative Bubbles -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <circle cx="300" cy="200" r="5"/>
+    <circle cx="350" cy="250" r="4"/>
+    <circle cx="400" cy="150" r="6"/>
+    <circle cx="450" cy="300" r="5"/>
+    <circle cx="500" cy="200" r="4"/>
+    <circle cx="250" cy="350" r="5"/>
+  </g>
+
+  <!-- Text -->
+  <text x="400" y="500" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#424242">
+    Joey's Lemonades Loyal Customer
+  </text>
+</svg>

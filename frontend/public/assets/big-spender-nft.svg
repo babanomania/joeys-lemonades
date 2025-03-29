@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFFFF"/>
+  
+  <!-- Ground/Base -->
+  <path d="M100 500 C 200 480, 600 520, 700 490" fill="#424242" opacity="0.2"/>
+  
+  <!-- Person -->
+  <g transform="translate(300, 300)">
+    <!-- Body -->
+    <path d="M0 -100 v200" stroke="#424242" stroke-width="40" stroke-linecap="round"/>
+    <!-- Vest -->
+    <path d="M-20 -50 v120 M20 -50 v120" stroke="#424242" stroke-width="30" stroke-linecap="round"/>
+    <!-- Head -->
+    <circle cx="0" cy="-120" r="30" fill="#424242"/>
+    <!-- Arms -->
+    <path d="M0 -50 l-40 60" stroke="#424242" stroke-width="20" stroke-linecap="round"/>
+    <path d="M0 -50 l40 60" stroke="#424242" stroke-width="20" stroke-linecap="round"/>
+    <!-- Shovel -->
+    <path d="M-40 10 l-100 -150" stroke="#424242" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-140 -140 l-40 -40" stroke="#424242" stroke-width="30" stroke-linecap="round"/>
+  </g>
+
+  <!-- Treasure Chest -->
+  <g transform="translate(500, 450)">
+    <!-- Base -->
+    <rect x="-50" y="-30" width="100" height="60" fill="#FFD700"/>
+    <!-- Lid -->
+    <path d="M-50 -30 q50 -20 100 0" stroke="#424242" stroke-width="4" fill="#FFD700"/>
+    <!-- Details -->
+    <circle cx="-30" cy="0" r="5" fill="#424242"/>
+    <circle cx="-10" cy="0" r="5" fill="#424242"/>
+    <circle cx="10" cy="0" r="5" fill="#424242"/>
+    <circle cx="30" cy="0" r="5" fill="#424242"/>
+    <!-- Steam/Smoke -->
+    <g opacity="0.5">
+      <path d="M-30 -40 q10 -10 0 -20" stroke="#CCCCCC" stroke-width="2" fill="none"/>
+      <path d="M-10 -40 q10 -10 0 -20" stroke="#CCCCCC" stroke-width="2" fill="none"/>
+      <path d="M10 -40 q10 -10 0 -20" stroke="#CCCCCC" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Plant -->
+  <g transform="translate(600, 450)">
+    <circle cx="0" cy="0" r="10" fill="#4CAF50"/>
+    <circle cx="0" cy="-20" r="10" fill="#4CAF50"/>
+    <circle cx="0" cy="-40" r="10" fill="#4CAF50"/>
+  </g>
+
+  <!-- Text -->
+  <text x="400" y="550" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#424242">
+    Joey's Lemonades Big Spender
+  </text>
+</svg>

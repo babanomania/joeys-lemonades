@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#DAA520"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="url(#goldGradient)" filter="url(#shadow)"/>
+  <g transform="translate(128, 128) scale(0.5)" fill="#FFF" filter="url(#glow)">
+    <!-- FontAwesome Crown Icon -->
+    <path d="M309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.3 7.6 27 19 34L228.6 230.1c-6.7 1.2-12.8-3.7-13.8-10.4L192.7 87.6c9.4-8.7 14.9-21.1 14.9-34.3c0-25.2-20.4-45.6-45.6-45.6S116.4 28.1 116.4 53.3c0 13.2 5.5 25.6 14.9 34.3L109.2 219.7c-1 6.7-7.1 11.6-13.8 10.4L57 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40S-4 49.9-4 72c0 14.3 7.6 27 19 34l38.1 92.8c5.4 13.1 18.1 21.7 32.4 21.7h278.8c14.3 0 27-8.5 32.4-21.7L435 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.3 7.6 27 19 34l-38.1 92.8c-5.4 13.1-18.1 21.7-32.4 21.7H44.5c-14.3 0-27-8.5-32.4-21.7L-26 106z"/>
+  </g>
+  <text x="256" y="400" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="48" font-weight="bold" filter="url(#glow)">GOLD</text>
+  <text x="256" y="460" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="36" font-weight="bold" filter="url(#glow)">REWARDS</text>
+</svg>
