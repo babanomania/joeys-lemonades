@@ -165,7 +165,7 @@ open http://localhost:54323
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/joeys-lemonades.git
+git clone https://github.com/babanomania/joeys-lemonades.git
 cd joeys-lemonades
 ```
 
